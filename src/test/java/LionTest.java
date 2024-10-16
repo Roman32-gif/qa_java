@@ -44,5 +44,4 @@ public class LionTest {
         Exception exception = assertThrows(Exception.class, () -> {new Lion("Неизвестное значение", feline);});
         assertEquals("Используйте допустимые значения пола животного - самей или самка", exception.getMessage());
     }
-
 }

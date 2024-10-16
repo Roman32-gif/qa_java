@@ -17,7 +17,6 @@ public class Lion {
             throw new Exception("Используйте допустимые значения пола животного - самей или самка");
         }
     }
-
     public int getKittens() {
         return feline.getKittens();
     }
