@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Cat {
 
+
     Predator predator;
 
     public Cat(Feline feline) {
@@ -17,5 +18,4 @@ public class Cat {
     public List<String> getFood() throws Exception {
         return predator.eatMeat();
     }
-
 }
