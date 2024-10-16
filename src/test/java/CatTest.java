@@ -31,4 +31,5 @@ public class CatTest {
        Mockito.verify(feline).eatMeat();
 
     }
+
 }
